@@ -1,0 +1,7 @@
+services:
+  mywebapp:
+    build: .
+    ports:
+      - "8000:5000"
+  mydb:
+    image: "redis:alpine"

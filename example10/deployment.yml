@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+ name: example10-deployment
+ labels:
+  app: example10
+spec:
+ selector:
+  matchLabels:
+   app: example10
+ replicas: 2
+ template:
+  metadata:
+   labels:
+    app: example10
+  spec:
+   containers:
+   - name: example10
+     image: majrul/example10
+     ports:
+      - containerPort: 8080
+ 
