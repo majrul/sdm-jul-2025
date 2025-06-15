@@ -7,7 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-<h1>Hello and Welcome</h1>
-<a href="login.jsp">Click here</a> to login
+<h1>This is login page</h1>
 </body>
 </html>
